@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_margin="8dp"
     android:orientation="vertical"
-    tools:context="dsa.eetac.upc.edu.restclient.MainActivity">
+    tools:context="dsa.eetac.upc.edu.MainActivity">
 
     <Spinner
         android:id="@+id/questions_spinner"
@@ -18,6 +18,12 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/deletebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
 
     <Button
         android:id="@+id/authenticate_button"
